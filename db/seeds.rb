@@ -5,14 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-users = [
-  ["たけし", 20, "サッカー"], 
-  ["さおり", 23, "バレー"], 
-  ["たろう", 22, "野球"]
-]
-
-
-users.each do |name, age, hobby| 
-  User.create(name: name, age: age, hobby: hobby)
-end
